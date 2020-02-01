@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component'
 import { RegistrationComponent } from './login/registration/registration.component'
 import { VerificationComponent } from './login/verification/verification.component'
 import { HomeComponent } from './home/home.component'
+import { SecureInnerPagesGuard } from './shared/guard/secure-inner-pages.guard.ts.guard'
 import { AuthGuard } from "./shared/guard/auth.guard";
 
 
